@@ -1,24 +1,25 @@
-{"name": "nodeandpub",
+{
+  "name": "asm",
   "version": "1.0.0",
-  "main": "myserver.js",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "jade": "^1.11.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node myserver.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Khanhhocgioi/NodeAndPub.git"
+    "url": "git+https://github.com/Khanhhocgioi/asm.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Khanhhocgioi/NodeAndPub/issues"
+    "url": "https://github.com/Khanhhocgioi/asm/issues"
   },
-  "homepage": "https://github.com/Khanhhocgioi/NodeAndPub#readme",
-  "description": ""
+  "homepage": "https://github.com/Khanhhocgioi/asm#readme"
 }
